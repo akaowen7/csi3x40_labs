@@ -1,0 +1,172 @@
+@font-face {
+  font-family: "Raleway";
+  src: url(Raleway/Raleway-VariableFont_wght.ttf) format('truetype-variations');
+  font-weight: 100 900;
+}
+
+*{
+  font-family: "Raleway";
+}
+
+body{
+  background: rgb(117, 116, 116);
+  /* margin: 0; */
+}
+
+.resume{
+  width: 8.5in;
+  height: 11in;
+  background: #ffffff;
+  display: flex;
+  margin: auto;
+}
+
+.resume .left{
+  padding: 4%;
+  width: 27%;
+  height: auto;
+  background: #292929;
+  color: #ffffff;
+}
+
+.resume .left p{
+  margin: 1em 0;
+}
+
+.resume .left h1{
+  margin: .55em 0;
+  font-size: 6mm;
+}
+
+.resume .left .title p{
+  text-align: right;
+  margin: .2em 0;
+}
+
+.resume .left .title h1{
+  text-align: right;
+  font-weight: 500;
+  font-size: 11mm;
+  margin: 0 0 .2em 0;
+}
+
+.resume .left .about{
+  border-bottom: 1.5px solid #ffffff;
+}
+
+.resume .left .contact{
+  padding: .5em 0;
+  border-bottom: 1.5px solid #ffffff;
+}
+.resume .left .contact .info{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.resume .left .contact p{
+  margin: .45em;
+}
+
+.resume .left .skills{
+  padding: 0 0 .5em 0;
+  border-bottom: 1.5px solid #ffffff;
+}
+.resume .left .skills .center{
+  text-align-last: justify;
+}
+.resume .left .skills p{
+  margin: .3em 0;
+}
+
+.resume .right{
+  color: #292929;
+  flex: 1;
+  width: auto;
+  padding: 3.5%;
+}
+
+.resume .right .list{
+  width: auto;
+  margin: 0 0 .6em 0;
+  border-bottom: 1.5px solid #292929;
+}
+
+.resume .right :last-child{
+  border-bottom: 0;
+}
+
+.resume .right .list h1{
+  text-align: right;
+  font-weight: 500;
+  margin: 0;
+}
+
+.resume .right .list li{
+  padding: .3em 0;
+  display: flex;
+  flex: 1;
+  list-style-type: none;
+  flex-direction: row;
+}
+
+.resume .right .list li h1{
+  margin: 0;
+  text-align: left;
+  width: 2.6em;
+  font-size: 1.1em;
+}
+
+.resume .right .list li h2{
+  margin: 0;
+}
+
+.resume .right .list li .item{
+  margin: 0 .3em 0 .7em;
+  width: auto;
+  flex-direction: column;
+}
+
+.resume .right .list li p{
+  margin: .15em 0;
+}
+
+.resume .right .list .item .project{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.resume .right .list .item .project p{
+  font-weight: 350;
+  color: #797979;
+  font-size: 3.5mm;
+  margin: .8em 0 0 0 ;
+}
+
+b{
+  font-weight: 700;
+}
+
+p{
+  font-weight: 400;
+  font-size: 3.9mm;
+}
+
+h1{
+  font-size: 7mm;
+  font-weight: 300;
+}
+
+h2{
+  font-weight: 300;
+  font-size: 5.5mm;
+}
+
+@media print {
+  body {
+    margin: 0;
+  }
+  .resume{
+      margin: 0;
+  }
+}
